@@ -47,7 +47,7 @@ Written in C++, this application is built using CMake and runs in the Windows sy
 1. Launch `CapsLockLanguageSwitch.exe`.
 2. The app runs in the system tray (bottom-right corner of the Windows taskbar).
 3. Right-click the tray icon to access the menu:
-   - **Enable/Disable**: Toggle the CapsLock-to-Hangul functionality.
+   - **Enable/Disable**: Toggle the CapsLock Switch functionality.
    - **Run at Startup**: Add or remove the app from Windows startup.
    - **Exit**: Close the application.
 4. Press CapsLock to toggle Korean-English input while using a remote Windows desktop from a MacBook.
@@ -104,7 +104,7 @@ C++로 작성되었으며, CMake로 빌드됩니다. 앱 실행 시 Windows 시�
 1. `CapsLockLanguageSwitch.exe`를 실행.
 2. Windows 작업 표시줄 오른쪽 하단의 시스템 트레이에서 앱 아이콘 확인.
 3. 아이콘을 우클릭하여 메뉴에 접근:
-   - **활성/비활성**: CapsLock-to-Hangul 기능 켜기/끄기.
+   - **활성/비활성**: CapsLockSwitch 기능 켜기/끄기.
    - **시작 시 실행**: Windows 부팅 시 앱 자동 실행 설정/해제.
    - **종료**: 앱 종료.
 4. 맥북에서 Windows 원격 데스크탑 사용 중 CapsLock 키를 눌러 한영 전환.
