@@ -40,7 +40,7 @@ Written in C++, this application is built using CMake and runs in the Windows sy
    cmake --build .
    ```
 4. **Run the application**:
-   - Navigate to the build directory and run the generated executable (e.g., `CapsLockLanguageSwitch.exe`).
+   - Navigate to the build directory and run the generated executable (e.g., `CapsLockLanguageSwitcher.exe`).
    - The app will appear in the system tray.
 
 ### Usage
@@ -101,7 +101,7 @@ C++로 작성되었으며, CMake로 빌드됩니다. 앱 실행 시 Windows 시�
    - 시스템 트레이에 앱 아이콘이 표시됨.
 
 ### 사용법
-1. `CapsLockLanguageSwitch.exe`를 실행.
+1. `CapsLockLanguageSwitcher.exe`를 실행.
 2. Windows 작업 표시줄 오른쪽 하단의 시스템 트레이에서 앱 아이콘 확인.
 3. 아이콘을 우클릭하여 메뉴에 접근:
    - **활성/비활성**: CapsLockSwitch 기능 켜기/끄기.
