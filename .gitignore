@@ -1,0 +1,8 @@
+# 빌드 결과물 및 임시 파일
+/build/
+*.exe
+*.obj
+*.res
+
+# VSCODE 설정 파일
+.vscode/
