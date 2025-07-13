@@ -15,7 +15,13 @@ Written in C++, this application is built using CMake and runs in the Windows sy
   - Exiting the application.
 - Lightweight and efficient, built with C++ and CMake.
 
-### Installation : 
+### Installation
+**The following is executed on a Windows desktop.**
+1. Download `CapsLockLanguageSwitch.exe` from the [Releases page](https://github.com/Socrad/CapsLockLanguageSwitch/releases).
+2. Run the executable to start the application.
+3. The app will appear in the system tray.
+
+### Or build from source code: 
 **The following is executed on a Windows desktop.**
 
 1. **Prerequisites**:
@@ -66,7 +72,13 @@ C++로 작성되었으며, CMake로 빌드됩니다. 앱 실행 시 Windows 시�
   - 앱 종료.
 - 가볍고 효율적인 C++ 구현, CMake 빌드 지원.
 
-### 설치 : 
+### 설치
+**Windows 데스크톱에서 실행합니다.**
+1. [Releases 페이지](https://github.com/Socrad/CapsLockLanguageSwitch/releases)에서 `CapsLockLanguageSwitch.exe`를 다운로드.
+2. 실행 파일을 실행하여 앱을 시작.
+3. 앱은 시스템 트레이에 표시됩니다.
+
+### 또는 소스코드로 빌드 : 
 **Windows 데스크톱에서 실행합니다.**
 
 1. **준비물**:
