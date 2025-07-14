@@ -17,7 +17,7 @@ Written in C++, this application is built using CMake and runs in the Windows sy
 
 ### Installation
 **The following is executed on a Windows desktop.**
-1. Download `CapsLockLanguageSwitch.exe` from the [Releases page](https://github.com/Socrad/CapsLockLanguageSwitch/releases).
+1. Download `CapsLockLanguageSwitcher.exe` from the [Releases page](https://github.com/Socrad/CapsLockLanguageSwitch/releases).
 2. Run the executable to start the application.
 3. The app will appear in the system tray.
 
@@ -34,17 +34,26 @@ Written in C++, this application is built using CMake and runs in the Windows sy
    cd CapsLockLanguageSwitch
    ```
 3. **Build the application**:
+
+   **Using MSVC (Visual Studio)**:
    ```bash
    mkdir build && cd build
    cmake ..
    cmake --build .
    ```
+   **Using MinGW**:
+   ```bash
+   mkdir build && cd build
+   cmake .. -G "MinGW Makefiles" -DCMAKE_TOOLCHAIN_FILE=../toolchain-mingw.cmake
+   cmake --build .
+   ```
+
 4. **Run the application**:
-   - Navigate to the build directory and run the generated executable (e.g., `CapsLockLanguageSwitch.exe`).
+   - Navigate to the build directory and run the generated executable (e.g., `CapsLockLanguageSwitcher.exe`).
    - The app will appear in the system tray.
 
 ### Usage
-1. Launch `CapsLockLanguageSwitch.exe`.
+1. Launch `CapsLockLanguageSwitcher.exe`.
 2. The app runs in the system tray (bottom-right corner of the Windows taskbar).
 3. Right-click the tray icon to access the menu:
    - **Enable/Disable**: Toggle the CapsLock Switch functionality.
@@ -74,7 +83,7 @@ C++로 작성되었으며, CMake로 빌드됩니다. 앱 실행 시 Windows 시�
 
 ### 설치
 **Windows 데스크톱에서 실행합니다.**
-1. [Releases 페이지](https://github.com/Socrad/CapsLockLanguageSwitch/releases)에서 `CapsLockLanguageSwitch.exe`를 다운로드.
+1. [Releases 페이지](https://github.com/Socrad/CapsLockLanguageSwitch/releases)에서 `CapsLockLanguageSwitcher.exe`를 다운로드.
 2. 실행 파일을 실행하여 앱을 시작.
 3. 앱은 시스템 트레이에 표시됩니다.
 
@@ -82,7 +91,7 @@ C++로 작성되었으며, CMake로 빌드됩니다. 앱 실행 시 Windows 시�
 **Windows 데스크톱에서 실행합니다.**
 
 1. **준비물**:
-   - Windows 10 이상.
+   - Windows 10 이��.
    - CMake 3.10 이상.
    - C++ 컴파일러 (예: MSVC, MinGW).
 2. **레포지토리 클론**:
@@ -91,17 +100,25 @@ C++로 작성되었으며, CMake로 빌드됩니다. 앱 실행 시 Windows 시�
    cd CapsLockLanguageSwitch
    ```
 3. **앱 빌드**:
+
+   **MSVC (Visual Studio) 사용 시**:
    ```bash
    mkdir build && cd build
    cmake ..
    cmake --build .
    ```
+   **MinGW 사용 시**:
+   ```bash
+   mkdir build && cd build
+   cmake .. -G "MinGW Makefiles" -DCMAKE_TOOLCHAIN_FILE=../toolchain-mingw.cmake
+   cmake --build .
+   ```
 4. **앱 실행**:
-   - 빌드 디렉토리에서 생성된 실행 파일(예: `CapsLockLanguageSwitch.exe`)을 실행.
+   - 빌드 디렉토리에서 생성된 실행 파일(예: `CapsLockLanguageSwitcher.exe`)을 실행.
    - 시스템 트레이에 앱 아이콘이 표시됨.
 
 ### 사용법
-1. `CapsLockLanguageSwitch.exe`를 실행.
+1. `CapsLockLanguageSwitcher.exe`를 실행.
 2. Windows 작업 표시줄 오른쪽 하단의 시스템 트레이에서 앱 아이콘 확인.
 3. 아이콘을 우클릭하여 메뉴에 접근:
    - **활성/비활성**: CapsLockSwitch 기능 켜기/끄기.
